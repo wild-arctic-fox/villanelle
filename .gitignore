@@ -1,6 +1,7 @@
 /node_modules
 /dist
 /tmp
+/scripts/aws-keys
 text.txt
 
 .terraform
