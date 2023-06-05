@@ -14,4 +14,4 @@
 ```sh scripts/github-add-secrets.bash```
 
 ### Create VPC & ECS Cluster & Sevice
-```sh scripts/vpc-ecs-create.sh <account-id>``
+```sh scripts/vpc-ecs-create.sh <account-id>```
