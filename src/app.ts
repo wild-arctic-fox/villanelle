@@ -23,7 +23,7 @@ async function startServer() {
   app.use(express.json({ limit: "50mb" }));
 
   app.get("/", (_req: Request, res: Response) => {
-    res.send(`Date: ${new Date()}
+    res.send(`Updated Date: ${new Date()}
       Enviroment: ${config.env}`);
   });
 
