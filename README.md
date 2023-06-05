@@ -6,9 +6,12 @@
 ### Create aws ECR Manually
 
 ### Create Policy 
-```sh scripts/aws-ecr-policy-user-create.bash 13***************```
+```sh scripts/aws-ecr-policy-user-create.bash <account-id>```
 
 ### Create .env file with aws secrets 
 
 ### Create Github secrets
 ```sh scripts/github-add-secrets.bash```
+
+### Create VPC & ECS Cluster & Sevice
+```sh scripts/vpc-ecs-create.sh <account-id>``
