@@ -27,13 +27,13 @@ async function startServer() {
       Enviroment: ${config.env}`);
   });
 
-  app.get("/hello", (r_eq: Request, res: Response) => {
+  app.get("/hello", (_req: Request, res: Response) => {
     res.send("Hello!");
   });
 
   app.listen(config.workingPort, () => {
     console.info(
-      `${config.applicationName} server started at port ${config.workingPort} in ${config.env} environment`
+      `Updated ${config.applicationName} server started at port ${config.workingPort} in ${config.env} environment`
     );
   });
 }
